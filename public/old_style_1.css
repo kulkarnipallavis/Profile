@@ -1,0 +1,134 @@
+* {
+	/*color : #E64712;*/
+}
+
+.custom-name {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	color : #E64712;
+	padding: 10px;
+	animation: bounceIn 2s;
+}
+
+.navbar-custom {
+	padding: 30px;
+	/*background-color: #6E7068;*/
+	font-weight: bold;
+	font-size: 20px;
+}
+
+body {
+
+	
+	/*background-color: #BD90D4;*/
+	 background-image: url("/orange-tech-new.png");
+	 /*background-image: url("/pattern-new.png");*/
+	/* webkit-tap-highlight-color: fade(white, 20%);*/
+	 /*background-image: url("/coding.png");*/
+	
+  	   /*mix-blend-mode: hard-light;*/
+  	   /*mix-blend-mode: luminosity;*/
+
+  		background-color: gray;
+  		background-blend-mode: screen;
+}
+
+
+.span-custom {
+	/*color: #6E7068;*/
+	color: #DEE0C8;
+}
+.span-custom-text {
+	/*color: #6E7068;*/
+	font-size: 30px;
+	/*color: #F5DD73;*/
+	color: #E64712; 
+	font-style: italic;
+	text-shadow: 0 0 3px #755A5A;
+	/*#F59D9D;*/
+}
+
+.social {
+	text-align: center;
+}
+
+.btn-social {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: #F2E9AC;	
+   	vertical-align: middle;
+}
+
+.arrow-custom {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.img-custom {
+	width: 100px;
+	height: 100px;
+}
+
+.technologies-custom {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	/*color : #E64712;*/
+	/*text-shadow: 1px 1px 2px black;*/
+	/*text-shadow: 5px 5px #8D909E;*/
+	/*text-shadow: white 2px 5px;*/
+
+	/*color: white;*/
+    /*text-shadow: 0 0 3px #FF0000;*/
+    text-shadow: 0 0 3px #755A5A;
+	padding: 50px 0 30px 0;
+	
+}
+
+.col-custom {
+	padding-bottom: 5px;
+}
+
+.skill-custom ul li{
+	display: inline-block;
+    float: left;
+    clear: both;
+    font-size: 20px;
+    /*font-weight: bold;*/
+}
+
+.container-custom {
+	 max-width: 20rem;
+	 font-size: 20px;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/***********/
+#about {
+	background: black;
+	color: white;
+}
+
+.about-custom {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+

@@ -1,0 +1,189 @@
+{% extends 'layout.html' %}
+ -->
+<!-- {% block content %} -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+ 		<meta name="viewport" content="width=device-width, initial-scale=1">
+ 		<link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+ 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+ 		<link href="/style.css" rel="stylesheet">
+ 	</head>
+ 	<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+		<!-- <nav class="navbar navbar-custom navbar-fixed-top" role="navigation"> -->
+		<nav class="navbar navbar-default navbar-custom">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#page-top">Brand</a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav navbar-right">
+		      	<li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+		        <li class="active"><a class="page-scroll" href="#home">Home<span class="sr-only">(current)</span></a></li>
+		        <li><a class="page-scroll" href="#projects">Projects</a></li>
+		        <li><a class="page-scroll" href="#about">About</a></li>
+		       </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+		
+		<section id="home" class="container content-section text-center home-custom">
+ 		<div>
+ 		 <!-- class="container content home-custom"> -->
+  		  	<div>
+	  			<div class="custom-name">
+	  				<span>Pallavi Kulkarni </span>
+	  				<!-- <span class="span-custom"> | </span>  -->
+	  				<span class="span-custom-text">[Fullstack web developer]</span>
+	  			</div>
+	  			<!-- <img src="pattern-new.png" class="img-thumbnail" alt="Responsive image"> -->
+	  			
+				<div class="social">
+					<i class="fa fa-linkedin-square fa-2x btn-social" aria-hidden="true"></i>
+					<i class="fa fa-github fa-2x btn-social" aria-hidden="true"></i>
+					<i class="fa fa-envelope-o fa-2x btn-social" aria-hidden="true"></i>
+				</div>
+			  
+
+				<div class="technologies-custom">Technologies
+					<a href="#about" class="btn btn-circle page-scroll">
+	                    <i class="fa fa-angle-double-down animated btn-social arrow-custom"></i>
+	                </a>
+                </div>
+		  	</div>
+			<div class="">
+				<div class="col-sm-3 skill-custom clearfix">
+					<ul>
+						<li>React</li>
+						<li>Redux</li>
+						<li>Node js</li>
+						<li>Express</li>
+						<li>Java Script</li>
+						
+					</ul>
+				</div>
+				<div class="col-sm-3 skill-custom clearfix">
+					<ul>
+
+						<li>Postgres</li>
+						<li>ajax-jquery</li>
+						<li>socket-io</li>
+						<li>Oauth</li>
+						<li>Angular</li>
+					</ul>
+				</div>
+				<div class="col-sm-3 skill-custom clearfix">
+					<ul>
+						<li>Java</li>
+						<li>Spring</li>
+						<li>Hibernate</li>
+						<li>web-services</li>
+						<li>Restful Api</li>
+					</ul>
+				</div>
+				<div class="col-sm-3 skill-custom clearfix">
+					<ul>
+						<li>bootstrap</li>
+						<li>Scss</li>
+						<li>css</li>
+						<li>jasmine</li>
+						<li>mocha</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		</section>
+			<section id="about" class="container content-section text-center">
+		        <div class="container about-custom">
+			        <div class="row">
+			            <div class="col-lg-8 col-lg-offset-2">
+			                <h2>About Grayscale</h2>
+			                <p>Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
+			                <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
+			                <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
+			            </div>
+			        </div>
+			    </div>
+    		</section>
+
+			<!-- <div class="row">
+			  <div class="col-md-1"><img src="/technologies/react.png" class="img-thumbnail img-custom" alt="Responsive image"></div>
+			  <div class="col-md-1"><img src="/technologies/redux.png" class="img-thumbnail img-custom" alt="Responsive image"></div>
+			  <div class="col-md-1"><img src="/technologies/js.png" class="img-thumbnail img-custom" alt="Responsive image"></div>
+			  <div class="col-md-1"><img src="/technologies/postgres.png" class="img-thumbnail img-custom" alt="Responsive image"></div>
+			  <div class="col-md-1"><img src="/technologies/nodejs.png" class="img-thumbnail img-custom" alt="Responsive image"></div>
+			  <div class="col-md-1"><img src="/technologies/oauth.png" class="img-thumbnail img-custom" alt="Responsive image"></div>
+			  <div class="col-md-1"><img src="/technologies/angular.png" class="img-thumbnail img-custom" alt="Responsive image"></div>
+			  <div class="col-md-1"><img src="/technologies/java.png" class="img-thumbnail img-custom" alt="Responsive image"></div>
+			  <div class="col-md-1"><img src="/technologies/spring.png" class="img-thumbnail img-custom" alt="Responsive image"></div>
+			  <div class="col-md-1"><img src="/technologies/hibernate.png" class="img-thumbnail img-custom" alt="Responsive image"></div>
+			  <div class="col-md-1"><img src="/technologies/web-services.png" class="img-thumbnail img-custom" alt="Responsive image"></div>
+			  <div class="col-md-1"><img src="/technologies/rest-api.png" class="img-thumbnail img-custom" alt="Responsive image"></div>
+			  <div class="col-md-1"><img src="/technologies/oracle.png" class="img-thumbnail img-custom" alt="Responsive image"></div>
+			  <div class="col-md-1"><img src="/technologies/scss.png" class="img-thumbnail img-custom" alt="Responsive image"></div>
+			  <div class="col-md-1"><img src="/technologies/sql.png" class="img-thumbnail img-custom" alt="Responsive image"></div>
+			  <div class="col-md-1"><img src="/technologies/css.png" class="img-thumbnail img-custom" alt="Responsive image"></div>
+			  <div class="col-md-1"><img src="/technologies/jasmine.png" class="img-thumbnail img-custom" alt="Responsive image"></div>
+			  <div class="col-md-1"><img src="/technologies/ajax-jquery.png" class="img-thumbnail img-custom" alt="Responsive image"></div>
+			  <div class="col-md-1"><img src="/technologies/bootstrap.png" class="img-thumbnail img-custom" alt="Responsive image"></div>
+		      <div class="col-md-1"><img src="/technologies/node-express.png" class="img-thumbnail img-custom" alt="Responsive image"></div>
+		      <div class="col-md-1"><img src="/technologies/socket-io.png" class="img-thumbnail img-custom" alt="Responsive image"></div>
+		      <div class="col-md-1"><img src="/technologies/html.png" class="img-thumbnail img-custom" alt="Responsive image"></div>
+		      <div class="col-md-1"><img src="/technologies/mocha.png" class="img-thumbnail img-custom" alt="Responsive image"></div>
+			</div>
+		 -->
+	
+
+		
+		
+		<script src="/jquery/jquery.min.js"></script>
+    	<script src="/bootstrap/js/bootstrap.min.js"></script>
+		
+    	<!-- Plugin JavaScript -->
+    	<script src="/jquery-easing/jquery.easing.1.3.umd.min.js"></script>
+
+		<script>
+		// jQuery to collapse the navbar on scroll
+		function collapseNavbar() {
+		    if ($(".navbar").offset().top > 50) {
+		        $(".navbar-fixed-top").addClass("top-nav-collapse");
+		    } else {
+		        $(".navbar-fixed-top").removeClass("top-nav-collapse");
+		    }
+		}
+
+		$(window).scroll(collapseNavbar);
+		$(document).ready(collapseNavbar);
+
+			// jQuery for page scrolling feature - requires jQuery Easing plugin
+		$(function() {
+		    $('a.page-scroll').bind('click', function(event) {
+		        var $anchor = $(this);
+		        $('html, body').stop().animate({
+		            scrollTop: $($anchor.attr('href')).offset().top
+		        }, 1500, 'easeInOutExpo');
+		        event.preventDefault();
+		    });
+		});
+
+		// Closes the Responsive Menu on Menu Item Click
+		$('.navbar-collapse ul li a').click(function() {
+		    $(this).closest('.collapse').collapse('toggle');
+		});
+		</script>
+		
+ 	</body>
+</html>
+<!-- {% endblock %}

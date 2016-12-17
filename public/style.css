@@ -1,0 +1,225 @@
+* {
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#intro {
+	 height: 100%;
+}
+
+#about {
+	height: 100%;
+}
+
+.about-custom {
+	width: 100%;
+	height: 100%;
+}
+
+#contact {
+	height: 100%;
+}
+.custom-name {
+	font-size: 30px;
+	/*font-weight: bold;*/
+	text-align: center;
+	/*color : #E64712;*/
+	text-shadow: 0 0 3px #755A5A;
+	padding: 10px;
+	animation: bounceIn 2s;
+}
+
+.navbar-my-custom {
+	padding: 30px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	/*font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+	background-image: url("/orange-tech-new.png");
+	background-color: gray;
+	background-blend-mode: screen;
+}
+
+
+.span-custom {
+	color: #DEE0C8;
+}
+.span-custom-text {
+	font-size: 20px;
+	/*color: #E64712; */
+	font-style: italic;
+	text-shadow: 0 0 3px #755A5A;
+}
+
+.social {
+	text-align: center;
+}
+
+.btn-social {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: #F2E9AC;	
+   	vertical-align: middle;
+}
+
+.arrow-custom {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.img-custom {
+	width: 100px;
+	height: 100px;
+}
+
+.technologies-custom {
+	text-align: center;
+	font-size: 30px;
+	/*font-weight: bold;*/
+    text-shadow: 0 0 3px #755A5A;
+	padding: 70px 0 40px 0;
+}
+
+.col-custom {
+	padding-bottom: 5px;
+}
+
+.skill-custom ul li{
+	display: inline-block;
+    float: left;
+    clear: both;
+    font-size: 20px;
+    /*font-weight: bold;*/
+}
+
+.container-custom {
+	 max-width: 20rem;
+	 font-size: 20px;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+a {
+  color: #42DCA3;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #1d9b6c;
+  /*#AFBACC*/
+}
+.light {
+  font-weight: 400;
+}
+.navbar-custom {
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  text-transform: uppercase;
+  /*font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  background-color: black;
+}
+.navbar-custom .navbar-toggle {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 12px;
+}
+.navbar-custom .navbar-toggle:focus,
+.navbar-custom .navbar-toggle:active {
+  outline: none;
+}
+.navbar-custom .navbar-brand {
+  font-weight: 700;
+}
+.navbar-custom .navbar-brand:focus {
+  outline: none;
+}
+.navbar-custom a {
+  color: white;
+}
+.navbar-custom .nav li a {
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+.navbar-custom .nav li a:hover {
+  /*color: rgba(255, 255, 255, 0.8);*/
+  color: #AFBACC;
+  outline: none;
+  background-color: transparent;
+}
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+  outline: none;
+  background-color: transparent;
+}
+.navbar-custom .nav li.active {
+  outline: none;
+}
+.navbar-custom .nav li.active a {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.navbar-custom .nav li.active a:hover {
+  color: white;
+}
+@media (min-width: 768px) {
+  .navbar-custom {
+    padding: 20px 0;
+    border-bottom: none;
+    letter-spacing: 1px;
+    background: transparent;
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  }
+  .navbar-custom.top-nav-collapse {
+    padding: 0;
+    background: black;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+}
+@media (min-width: 767px) {
+  .content-section {
+    padding-top: 250px;
+  }
+  .download-section {
+    padding: 100px 0;
+  }
+  #map {
+    height: 400px;
+    margin-top: 250px;
+  }
+
+
+.content-section {
+  padding-top: 100px;
+}
+.download-section {
+  width: 100%;
+  padding: 50px 0;
+  color: white;
+  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
